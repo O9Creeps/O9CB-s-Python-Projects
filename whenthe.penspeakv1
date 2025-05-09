@@ -1,0 +1,44 @@
+* penSpeak 1
+
+//comment
+
+init GRAD1 color
+init GRAD2 integer
+
+pen.color.red
+pen.color #00ff2d
+
+line 10 10 20 20
+//polygon x y size(px) sides
+polygon -50 -50 30 6
+
+triangle -100 100 50 50 200 250 false
+//triangle x1 y1 x2 y2 x3 y3 filled? fillcolorHEX(default is current pen color)
+
+world.bgCOL #0fa0fa
+
+blend( #00ff00, #ff00aa, 50) -> GRAD1
+
+//blend(col1, col2, %-of-col2)
+// value -> variable
+
+world.clear
+world.resize 300 400
+//world.resize width height
+world.style roundborder 100
+world.style outline dotted #ff0000 #0077ff
+
+world.reset
+camera.reset
+
+camera.xy 100 100
+camera.roto 124
+
+if 1==2 then [1]
+[1] line cornerTL cornerBR
+[1] polygon number number number
+
+pen.color.random
+
+[1] message 20 30 30 waswas >_
+//message x y pxsize message with spaces too ^w^
