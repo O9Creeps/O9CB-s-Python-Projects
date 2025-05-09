@@ -1,10 +1,10 @@
-# O9CB's Python Projects
+# O9CB's Random Projects
 
 GitHub Repo
 
 What's here?
 ---
-This github repo is for my various Python projects. Specifically, the latest Python version avaliable (hopefully)
+This github repo is for my various projects. This includes the latest Python version avaliable (hopefully)
 
 Why GitHub?
 ---
