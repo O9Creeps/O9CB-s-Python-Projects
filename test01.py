@@ -4,7 +4,7 @@ import os
 import random
 
 #version #
-version = "0.1.0"
+version = "0.1.2"
 
 #set the window title
 os.system('title Python CHANCE! v' + str(version))
